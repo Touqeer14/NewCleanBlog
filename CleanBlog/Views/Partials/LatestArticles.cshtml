@@ -1,0 +1,129 @@
+﻿@inherits CleanBlogViewPage
+
+@using CleanBlog.Core.ViewPages
+@using System.Linq;
+
+
+
+
+@{
+
+    //var siteRoot = Model.Root();
+
+    //var articleList = (ArticalList)ArticleService.GetaArticleListPage(siteRoot);
+    //var articles = ArticleService.GetLatestArticle(siteRoot).Cast<Article>();
+
+    //var isArticleListpage = articleList.Id == Model.Id;
+    //var fallbackpagesize = isArticleListpage ? 6 : 3;
+
+    //var pageNumber = QueryStringHelper.GetIntFromQueryString(Request, "page", 1);
+    //var pageSize = QueryStringHelper.GetIntFromQueryString(Request, "size", fallbackpagesize);
+
+    //var pageOfArticles = articles.Skip((pageNumber - 1) * pageSize).Take(pageSize);
+    //var totalItemCount = articles.Count();
+    //var pageCount = totalItemCount > 0 ? Math.Ceiling((double)totalItemCount / pageSize) : 1;
+
+
+    var resultSet = ArticleService.GetLatestArticles(Model, Request);
+
+}
+
+@if (resultSet !=null && resultSet.Results != null && resultSet.Results.Any())
+{
+    var articles = resultSet.Results.Cast<Article>();
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+                @foreach (var article in articles)
+                {
+                    <div class="post-preview">
+                        <a href="@resultSet.Url">
+                            <h2 class="post-title">
+                                @DateTime.Now
+                                @(!string.IsNullOrWhiteSpace(article.Title) ? article.Title : article.Name)
+                            </h2>
+                            @if (!string.IsNullOrWhiteSpace(article.Subtitle))
+                            {
+                                <h3 class="post-subtitle">
+                                    @article.Subtitle
+                                </h3>
+
+                            }
+
+                        </a>
+                        <p class="post-meta">
+                            Posted
+                            @if (!string.IsNullOrWhiteSpace(article.AuthorName))
+                            {
+                                @Html.Raw("by ")@article.AuthorName
+
+                            }
+                            on @article.ArticleDate.ToString(format: "MMMM dd,yyyy")
+
+
+                          </p>
+                    </div>
+                    <hr>
+                }
+
+                <div id="Paging" class="clearfix">
+                    @if (resultSet.IsArticleResultsPage)
+                    {
+                        if (resultSet.PageCount > 1)
+                        {
+                            <div class="paging-block">
+                                @if (resultSet.PageNumber > 1)
+                                {
+                                    <a class="btn btn-primary float-left" href="@($"{resultSet.Url}?page ={resultSet.PageNumber - 1}&size={ resultSet.PageSize }")">@Umbraco.GetDictionaryValue("Blog.Prev")</a>
+                                }
+                                else
+                                {
+                                    @Html.Raw("&nbsp;")
+                                }
+
+                            </div>
+
+                            <div class="paging-block text-center">
+                                <span>Page @resultSet.PageNumber of @resultSet.PageCount </span>
+                            </div>
+                            <div class="paging-block">
+                                @if (resultSet.PageNumber < resultSet.PageCount)
+                                {
+                                <a class="btn btn-primary float-right" href="@($"{resultSet.Url}?page={resultSet.PageNumber + 1}&size={resultSet.PageSize }")">@Umbraco.GetDictionaryValue("Blog.Next")</a>
+                                }
+                                else
+                                {
+                                    @Html.Raw("&nbsp;")
+                                }
+
+
+                            </div>
+                        }
+                    }
+
+                    else
+                    {
+                            <a class="btn btn-primary float-right" href="@(resultSet.Url)">@Umbraco.GetDictionaryValue("Blog.ViewAll")l</a>
+                    }
+
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

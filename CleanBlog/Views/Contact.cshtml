@@ -1,0 +1,39 @@
+﻿@using CleanBlog.Core.Services
+@using CleanBlog.Core.Controllers
+
+@inherits Umbraco.Web.Mvc.UmbracoViewPage
+@using ClientDependency.Core.Mvc
+
+@{
+    Layout = "Master.cshtml";
+
+    Html.EnableClientValidation();
+    Html.EnableUnobtrusiveJavaScript();
+
+    Html.RequiresJs("https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js");
+    Html.RequiresJs("https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js");
+    Html.RequiresJs("/Scripts/jquery.validate.min.js");
+    Html.RequiresJs("/Scripts/jquery.validate.unobtrusive.min.js");
+    Html.RequiresJs("/Scripts/jquery.unobtrusive-ajax.min.js");
+    Html.RequiresJs("/Scripts/contactForm.js");
+
+    @*<script src="~/Scripts/jquery-1.8.0.min.js"></script>
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>*@
+
+
+}
+
+@* the fun starts here *@
+<!-- Page Header -->
+@Html.Partial("~/Views/Partials/PageHeader.cshtml")
+
+
+
+
+<div class="container">
+    <div class="col-lg-8 col-md-10 mx-auto">
+        @{Html.RenderAction("RenderForm", controllerName: "ContactSurface");}
+
+    </div>
+
+</div>

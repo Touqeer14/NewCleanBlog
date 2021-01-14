@@ -1,0 +1,72 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage
+@{
+    Layout = "Master.cshtml";
+    var searchQuery = Request.QueryString["q"];
+}
+
+ 
+
+ 
+@Html.Partial("~/Views/Partials/PageHeader.cshtml")
+
+<div class="container">
+    <form action="@Model.Url" method="get" id="search">
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+              <div class="form-group controls">
+                 <input type="text" class="form-control col-xl-6" placeholder=@Umbraco.GetDictionaryValue("Search.Placeholder") id="message" name="q" value=""  />
+               </div>
+             </div>
+                <div class="col-lg-8 col-md-10 mx-auto">
+                    <div class="form-group">
+                        <button class="btn btn-primary search-button" >@Umbraco.GetDictionaryValue("Search.ButtonText" ) <i class="fa fa-search"></i></button>
+                     </div>
+                   </div>
+                    <div class="col-lg-8 col-md-10 mx-auto">
+                        @if (!string.IsNullOrWhiteSpace(searchQuery))
+                        {
+                            var results = Umbraco.ContentQuery.Search(searchQuery, string.Empty);
+                            long resultCount = results != null && results.Any() ? results.Count() : 0;
+                            <p>
+                        @Html.Raw(string.Format(Umbraco.GetDictionaryValue("Search.ResultsText"), searchQuery, resultCount, (resultCount == 1 ? null : "s")))
+                        </p>
+                            if (resultCount > 0)
+                            {
+                                foreach (var result in results)
+                                {
+
+                                    var title = result.Content.Value<string>("title");
+                                    var subtitle = result.Content.Value<string>("subtitle");
+                                    var authorName = result.Content.Value<string>("authorName");
+                                    var articleDate = result.Content.Value<DateTime>("articleDate");
+                            <div class="post-preview">
+                                <a href="@result.Content.Url">
+                                    <h2 class="post-title">
+                                        @(!string.IsNullOrWhiteSpace(title) ? title : result.Content.Name)
+
+                                    </h2>
+                                    @if (!string.IsNullOrWhiteSpace(subtitle))
+                                    {
+
+                                        <h3 class="post-subtitle">
+                                            @subtitle
+
+                                        </h3>
+                                    }
+                                </a>
+                                @if (!string.IsNullOrWhiteSpace(authorName) && articleDate != DateTime.MinValue)
+                                {
+                                    <p class="post-meta">
+                                        Poste by @authorName on @articleDate.ToString("MMMM dd,yyyy")
+                                    </p>
+                                }
+                            </div>
+                                }
+
+                            }
+
+                        }
+                  </div>         
+            </div>
+      </form>
+ </div>

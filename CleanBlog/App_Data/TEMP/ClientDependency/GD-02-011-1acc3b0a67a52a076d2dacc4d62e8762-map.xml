@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<map>
+  <item key="L2Nzcy9jbGVhbi1ibG9nLm1pbi5jc3M7" file="C:\Users\OVRLOD\Documents\GitHub\NewCleanBlog\CleanBlog\App_Data\TEMP\ClientDependency\1_5b13d39b30f243ae864020237cb06f50.cdC" compression="gzip" version="1">
+    <files>
+      <file name="/css/clean-blog.min.css" />
+    </files>
+  </item>
+  <item key="L3ZlbmRvci9ib290c3RyYXAvY3NzL2Jvb3RzdHJhcC5taW4uY3NzOw" file="C:\Users\OVRLOD\Documents\GitHub\NewCleanBlog\CleanBlog\App_Data\TEMP\ClientDependency\1_cd1179a692094568abbaf87b51b9f5a7.cdC" compression="gzip" version="1">
+    <files>
+      <file name="/vendor/bootstrap/css/bootstrap.min.css" />
+    </files>
+  </item>
+  <item key="L3ZlbmRvci9qcXVlcnkvanF1ZXJ5Lm1pbi5qczsvdmVuZG9yL2Jvb3RzdHJhcC9qcy9ib290c3RyYXAuYnVuZGxlLm1pbi5qczsvanMvanFCb290c3RyYXBWYWxpZGF0aW9uLmpzOy9qcy9jb250YWN0X21lLmpzOy9qcy9jbGVhbi1ibG9nLm1pbi5qczs" file="C:\Users\OVRLOD\Documents\GitHub\NewCleanBlog\CleanBlog\App_Data\TEMP\ClientDependency\1_52d5c1c12c464ffe8e7b54ff7b64d29c.cdJ" compression="gzip" version="1">
+    <files>
+      <file name="/vendor/jquery/jquery.min.js" />
+      <file name="/vendor/bootstrap/js/bootstrap.bundle.min.js" />
+      <file name="/js/jqBootstrapValidation.js" />
+      <file name="/js/contact_me.js" />
+      <file name="/js/clean-blog.min.js" />
+    </files>
+  </item>
+  <item key="L1NjcmlwdHMvanF1ZXJ5LnZhbGlkYXRlLm1pbi5qczsvU2NyaXB0cy9qcXVlcnkudmFsaWRhdGUudW5vYnRydXNpdmUubWluLmpzOy9TY3JpcHRzL2pxdWVyeS51bm9idHJ1c2l2ZS1hamF4Lm1pbi5qczsvU2NyaXB0cy9Db250YWN0Rm9ybS5qczsvdmVuZG9yL2pxdWVyeS9qcXVlcnkubWluLmpzOy92ZW5kb3IvYm9vdHN0cmFwL2pzL2Jvb3RzdHJhcC5idW5kbGUubWluLmpzOy9qcy9qcUJvb3RzdHJhcFZhbGlkYXRpb24uanM7L2pzL2NvbnRhY3RfbWUuanM7L2pzL2NsZWFuLWJsb2cubWluLmpzOw" file="C:\Users\OVRLOD\Documents\GitHub\NewCleanBlog\CleanBlog\App_Data\TEMP\ClientDependency\1_083dcf0a8cc741fd90de0be20447a7cf.cdJ" compression="gzip" version="1">
+    <files>
+      <file name="/Scripts/jquery.validate.min.js" />
+      <file name="/Scripts/jquery.validate.unobtrusive.min.js" />
+      <file name="/Scripts/jquery.unobtrusive-ajax.min.js" />
+      <file name="/Scripts/ContactForm.js" />
+      <file name="/vendor/jquery/jquery.min.js" />
+      <file name="/vendor/bootstrap/js/bootstrap.bundle.min.js" />
+      <file name="/js/jqBootstrapValidation.js" />
+      <file name="/js/contact_me.js" />
+      <file name="/js/clean-blog.min.js" />
+    </files>
+  </item>
+  <item key="L3ZlbmRvci9ib290c3RyYXAvY3NzL2Jvb3RzdHJhcC5taW4uY3NzOy92ZW5kb3IvZm9ybnRhd2Vzb21lLWZyZWUvYWxsLm1pbi5jc3M7" file="C:\Users\OVRLOD\Documents\GitHub\NewCleanBlog\CleanBlog\App_Data\TEMP\ClientDependency\1_bfbe360a25424d6c93c9aac284b39f48.cdC" compression="gzip" version="1">
+    <files>
+      <file name="/vendor/bootstrap/css/bootstrap.min.css" />
+    </files>
+  </item>
+  <item key="L3ZlbmRvci9ib290c3RyYXAvY3NzL2Jvb3RzdHJhcC5taW4uY3NzOy92ZW5kb3IvZm9udGF3ZXNvbWUtZnJlZS9hbGwubWluLmNzczs" file="C:\Users\OVRLOD\Documents\GitHub\NewCleanBlog\CleanBlog\App_Data\TEMP\ClientDependency\1_dfac706fa5564d799ebefda12d0eb6f7.cdC" compression="gzip" version="1">
+    <files>
+      <file name="/vendor/bootstrap/css/bootstrap.min.css" />
+    </files>
+  </item>
+  <item key="L3ZlbmRvci9ib290c3RyYXAvY3NzL2Jvb3RzdHJhcC5taW4uY3NzOy92ZW5kb3IvZm9udGF3ZXNvbWUtZnJlZS9jc3MvYWxsLm1pbi5jc3M7" file="C:\Users\OVRLOD\Documents\GitHub\NewCleanBlog\CleanBlog\App_Data\TEMP\ClientDependency\1_1d483b17a67b47b094981e868b07e684.cdC" compression="gzip" version="1">
+    <files>
+      <file name="/vendor/bootstrap/css/bootstrap.min.css" />
+      <file name="/vendor/fontawesome-free/css/all.min.css" />
+    </files>
+  </item>
+  <item key="L1NjcmlwdHMvanF1ZXJ5LnZhbGlkYXRlLm1pbi5qczsvU2NyaXB0cy9qcXVlcnkudmFsaWRhdGUudW5vYnRydXNpdmUubWluLmpzOy9TY3JpcHRzL2pxdWVyeS51bm9idHJ1c2l2ZS1hamF4Lm1pbi5qczsvU2NyaXB0cy9Db250YWN0Rm9ybS5qczsvdmVuZG9yL2pxdWVyeS9qcXVlcnkubWluLmpzOy92ZW5kb3IvYm9vdHN0cmFwL2pzL2Jvb3RzdHJhcC5idW5kbGUubWluLmpzOy9qcy9jbGVhbi1ibG9nLm1pbi5qczs" file="C:\Users\OVRLOD\Documents\GitHub\NewCleanBlog\CleanBlog\App_Data\TEMP\ClientDependency\1_3e75f1cc006a4362bb5de247c8094404.cdJ" compression="gzip" version="1">
+    <files>
+      <file name="/Scripts/jquery.validate.min.js" />
+      <file name="/Scripts/jquery.validate.unobtrusive.min.js" />
+      <file name="/Scripts/jquery.unobtrusive-ajax.min.js" />
+      <file name="/Scripts/ContactForm.js" />
+      <file name="/vendor/jquery/jquery.min.js" />
+      <file name="/vendor/bootstrap/js/bootstrap.bundle.min.js" />
+      <file name="/js/clean-blog.min.js" />
+    </files>
+  </item>
+  <item key="L3ZlbmRvci9qcXVlcnkvanF1ZXJ5Lm1pbi5qczsvdmVuZG9yL2Jvb3RzdHJhcC9qcy9ib290c3RyYXAuYnVuZGxlLm1pbi5qczsvanMvY2xlYW4tYmxvZy5taW4uanM7" file="C:\Users\OVRLOD\Documents\GitHub\NewCleanBlog\CleanBlog\App_Data\TEMP\ClientDependency\1_a2b4af18b43442f58d945887121ff8fe.cdJ" compression="gzip" version="1">
+    <files>
+      <file name="/vendor/jquery/jquery.min.js" />
+      <file name="/vendor/bootstrap/js/bootstrap.bundle.min.js" />
+      <file name="/js/clean-blog.min.js" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY28vYXNzZXRzL2Nzcy91bWJyYWNvLmNzczsvdW1icmFjby9saWIvYm9vdHN0cmFwLXNvY2lhbC9ib290c3RyYXAtc29jaWFsLmNzczsvdW1icmFjby9saWIvZm9udC1hd2Vzb21lL2Nzcy9mb250LWF3ZXNvbWUubWluLmNzczs" file="C:\Users\OVRLOD\Documents\GitHub\NewCleanBlog\CleanBlog\App_Data\TEMP\ClientDependency\1_406badd7162d419db757135047f68192.cdC" compression="gzip" version="1">
+    <files>
+      <file name="/umbraco/assets/css/umbraco.css" />
+      <file name="/umbraco/lib/bootstrap-social/bootstrap-social.css" />
+      <file name="/umbraco/lib/font-awesome/css/font-awesome.min.css" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY28vbGliL2pxdWVyeS9qcXVlcnkubWluLmpzOy91bWJyYWNvL2xpYi9qcXVlcnktdWkvanF1ZXJ5LXVpLm1pbi5qczsvdW1icmFjby9saWIvanF1ZXJ5LXVpLXRvdWNoLXB1bmNoL2pxdWVyeS51aS50b3VjaC1wdW5jaC5taW4uanM7L3VtYnJhY28vbGliL2FuZ3VsYXIvYW5ndWxhci5qczsvdW1icmFjby9saWIvdW5kZXJzY29yZS91bmRlcnNjb3JlLW1pbi5qczsvdW1icmFjby9saWIvbW9tZW50L21vbWVudC5taW4uanM7L3VtYnJhY28vbGliL2ZsYXRwaWNrci9mbGF0cGlja3IuanM7L3VtYnJhY28vbGliL2FuaW1lanMvYW5pbWUubWluLmpzOy91bWJyYWNvL2xpYi9hbmd1bGFyLXJvdXRlL2FuZ3VsYXItcm91dGUuanM7L3VtYnJhY28vbGliL2FuZ3VsYXItY29va2llcy9hbmd1bGFyLWNvb2tpZXMuanM7L3VtYnJhY28vbGliL2FuZ3VsYXItYXJpYS9hbmd1bGFyLWFyaWEubWluLmpzOy91bWJyYWNvL2xpYi9hbmd1bGFyLXRvdWNoL2FuZ3VsYXItdG91Y2guanM7L3VtYnJhY28vbGliL2FuZ3VsYXItc2FuaXRpemUvYW5ndWxhci1zYW5pdGl6ZS5qczsvdW1icmFjby9saWIvYW5ndWxhci1hbmltYXRlL2FuZ3VsYXItYW5pbWF0ZS5qczsvdW1icmFjby9saWIvYW5ndWxhci1tZXNzYWdlcy9hbmd1bGFyLW1lc3NhZ2VzLmpzOy91bWJyYWNvL2xpYi9hbmd1bGFyLXVpLXNvcnRhYmxlL3NvcnRhYmxlLmpzOy91bWJyYWNvL2xpYi9hbmd1bGFyLWR5bmFtaWMtbG9jYWxlL3RtaER5bmFtaWNMb2NhbGUubWluLmpzOy91bWJyYWNvL2xpYi9uZy1maWxlLXVwbG9hZC9uZy1maWxlLXVwbG9hZC5taW4uanM7L3VtYnJhY28vbGliL2FuZ3VsYXItbG9jYWwtc3RvcmFnZS9hbmd1bGFyLWxvY2FsLXN0b3JhZ2UubWluLmpzOy91bWJyYWNvL2xpYi9jaGFydC5qcy9jaGFydC5taW4uanM7L3VtYnJhY28vbGliL2FuZ3VsYXItY2hhcnQuanMvYW5ndWxhci1jaGFydC5taW4uanM7L3VtYnJhY28vbGliL3dpY2ctaW5lcnQvZGlzdC9pbmVydC5taW4uanM7L3VtYnJhY28vbGliL3VtYnJhY28vRXh0ZW5zaW9ucy5qczsvdW1icmFjby9saWIvdW1icmFjby9OYW1lc3BhY2VNYW5hZ2VyLmpzOy91bWJyYWNvL2xpYi91bWJyYWNvL0xlZ2FjeVNwZWVjaEJ1YmJsZS5qczsvdW1icmFjby9qcy9hcHAuanM7L3VtYnJhY28vanMvdW1icmFjby5yZXNvdXJjZXMuanM7L3VtYnJhY28vanMvdW1icmFjby5kaXJlY3RpdmVzLmpzOy91bWJyYWNvL2pzL3VtYnJhY28uZmlsdGVycy5qczsvdW1icmFjby9qcy91bWJyYWNvLnNlcnZpY2VzLmpzOy91bWJyYWNvL2pzL3VtYnJhY28uaW50ZXJjZXB0b3JzLmpzOy91bWJyYWNvL2pzL3VtYnJhY28uY29udHJvbGxlcnMuanM7L3VtYnJhY28vanMvcm91dGVzLmpzOy91bWJyYWNvL2pzL2luaXQuanM7" file="C:\Users\OVRLOD\Documents\GitHub\NewCleanBlog\CleanBlog\App_Data\TEMP\ClientDependency\1_98990c4424f04ab3ad37a18dba90b196.cdJ" compression="gzip" version="1">
+    <files>
+      <file name="/umbraco/lib/jquery/jquery.min.js" />
+      <file name="/umbraco/lib/jquery-ui/jquery-ui.min.js" />
+      <file name="/umbraco/lib/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js" />
+      <file name="/umbraco/lib/angular/angular.js" />
+      <file name="/umbraco/lib/underscore/underscore-min.js" />
+      <file name="/umbraco/lib/moment/moment.min.js" />
+      <file name="/umbraco/lib/flatpickr/flatpickr.js" />
+      <file name="/umbraco/lib/animejs/anime.min.js" />
+      <file name="/umbraco/lib/angular-route/angular-route.js" />
+      <file name="/umbraco/lib/angular-cookies/angular-cookies.js" />
+      <file name="/umbraco/lib/angular-aria/angular-aria.min.js" />
+      <file name="/umbraco/lib/angular-touch/angular-touch.js" />
+      <file name="/umbraco/lib/angular-sanitize/angular-sanitize.js" />
+      <file name="/umbraco/lib/angular-animate/angular-animate.js" />
+      <file name="/umbraco/lib/angular-messages/angular-messages.js" />
+      <file name="/umbraco/lib/angular-ui-sortable/sortable.js" />
+      <file name="/umbraco/lib/angular-dynamic-locale/tmhDynamicLocale.min.js" />
+      <file name="/umbraco/lib/ng-file-upload/ng-file-upload.min.js" />
+      <file name="/umbraco/lib/angular-local-storage/angular-local-storage.min.js" />
+      <file name="/umbraco/lib/chart.js/chart.min.js" />
+      <file name="/umbraco/lib/angular-chart.js/angular-chart.min.js" />
+      <file name="/umbraco/lib/wicg-inert/dist/inert.min.js" />
+      <file name="/umbraco/lib/umbraco/Extensions.js" />
+      <file name="/umbraco/lib/umbraco/NamespaceManager.js" />
+      <file name="/umbraco/lib/umbraco/LegacySpeechBubble.js" />
+      <file name="/umbraco/js/app.js" />
+      <file name="/umbraco/js/umbraco.resources.js" />
+      <file name="/umbraco/js/umbraco.directives.js" />
+      <file name="/umbraco/js/umbraco.filters.js" />
+      <file name="/umbraco/js/umbraco.services.js" />
+      <file name="/umbraco/js/umbraco.interceptors.js" />
+      <file name="/umbraco/js/umbraco.controllers.js" />
+      <file name="/umbraco/js/routes.js" />
+      <file name="/umbraco/js/init.js" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY28vbGliL3RpbnltY2UvdGlueW1jZS5taW4uanM7L3VtYnJhY28vbGliL3RpbnltY2UvcGx1Z2lucy9wYXN0ZS9wbHVnaW4ubWluLmpzOy91bWJyYWNvL2xpYi90aW55bWNlL3BsdWdpbnMvYW5jaG9yL3BsdWdpbi5taW4uanM7L3VtYnJhY28vbGliL3RpbnltY2UvcGx1Z2lucy9jaGFybWFwL3BsdWdpbi5taW4uanM7L3VtYnJhY28vbGliL3RpbnltY2UvcGx1Z2lucy90YWJsZS9wbHVnaW4ubWluLmpzOy91bWJyYWNvL2xpYi90aW55bWNlL3BsdWdpbnMvbGlzdHMvcGx1Z2luLm1pbi5qczsvdW1icmFjby9saWIvdGlueW1jZS9wbHVnaW5zL2Fkdmxpc3QvcGx1Z2luLm1pbi5qczsvdW1icmFjby9saWIvdGlueW1jZS9wbHVnaW5zL2hyL3BsdWdpbi5taW4uanM7L3VtYnJhY28vbGliL3RpbnltY2UvcGx1Z2lucy9hdXRvbGluay9wbHVnaW4ubWluLmpzOy91bWJyYWNvL2xpYi90aW55bWNlL3BsdWdpbnMvZGlyZWN0aW9uYWxpdHkvcGx1Z2luLm1pbi5qczsvdW1icmFjby9saWIvdGlueW1jZS9wbHVnaW5zL3RhYmZvY3VzL3BsdWdpbi5taW4uanM7L3VtYnJhY28vbGliL3RpbnltY2UvcGx1Z2lucy9zZWFyY2hyZXBsYWNlL3BsdWdpbi5taW4uanM7L3VtYnJhY28vbGliL3RpbnltY2UvcGx1Z2lucy9mdWxsc2NyZWVuL3BsdWdpbi5taW4uanM7L3VtYnJhY28vbGliL3RpbnltY2UvcGx1Z2lucy9ub25lZGl0YWJsZS9wbHVnaW4ubWluLmpzOw" file="C:\Users\OVRLOD\Documents\GitHub\NewCleanBlog\CleanBlog\App_Data\TEMP\ClientDependency\1_a4b569f9d4744481b6f07575a4eec864.cdJ" compression="gzip" version="1">
+    <files>
+      <file name="/umbraco/lib/tinymce/tinymce.min.js" />
+      <file name="/umbraco/lib/tinymce/plugins/paste/plugin.min.js" />
+      <file name="/umbraco/lib/tinymce/plugins/anchor/plugin.min.js" />
+      <file name="/umbraco/lib/tinymce/plugins/charmap/plugin.min.js" />
+      <file name="/umbraco/lib/tinymce/plugins/table/plugin.min.js" />
+      <file name="/umbraco/lib/tinymce/plugins/lists/plugin.min.js" />
+      <file name="/umbraco/lib/tinymce/plugins/advlist/plugin.min.js" />
+      <file name="/umbraco/lib/tinymce/plugins/hr/plugin.min.js" />
+      <file name="/umbraco/lib/tinymce/plugins/autolink/plugin.min.js" />
+      <file name="/umbraco/lib/tinymce/plugins/directionality/plugin.min.js" />
+      <file name="/umbraco/lib/tinymce/plugins/tabfocus/plugin.min.js" />
+      <file name="/umbraco/lib/tinymce/plugins/searchreplace/plugin.min.js" />
+      <file name="/umbraco/lib/tinymce/plugins/fullscreen/plugin.min.js" />
+      <file name="/umbraco/lib/tinymce/plugins/noneditable/plugin.min.js" />
+    </files>
+  </item>
+</map>
